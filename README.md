@@ -18,7 +18,7 @@ et choisir s’il souhaite vraiment se réveiller et sortir de ce Dreamland.
 
 ---
 
-## 🎯 Objectifs
+## Objectifs
 
 - Explorer un monde en mutation à chaque "réveil"
 - Observer les éléments qui changent ou deviennent incohérents
@@ -27,7 +27,7 @@ et choisir s’il souhaite vraiment se réveiller et sortir de ce Dreamland.
 
 ---
 
-## 🧱 Technologies utilisées
+## Technologies utilisées
 
 - [BabylonJS](https://www.babylonjs.com/) – Moteur 3D WebGL
 - [Vite](https://vitejs.dev/) – Environnement de build rapide
@@ -35,21 +35,10 @@ et choisir s’il souhaite vraiment se réveiller et sortir de ce Dreamland.
 
 ---
 
-## 🧪 Instructions de lancement
-
-### En local
-
-```bash
-git clone https://github.com/<votre-dépôt>.git
-cd cycle-zero
-npm install
-npm run dev
-```
-
 ## Équipe
 
-Étudiants en MIAGE – Université Côte d’Azur
+Étudiants en Master MIAGE – Université de Haute-Alsace
 
-Nom Prénom 1 — Développement gameplay / cycles
-Nom Prénom 2 — Intégration 3D / narration
-Nom Prénom 3 — Interactions / sons / UI
+Yiadom Boakye David
+Dali Reda
+Tidjani Rafik 
