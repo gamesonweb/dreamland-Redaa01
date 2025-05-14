@@ -39,6 +39,6 @@ et choisir s’il souhaite vraiment se réveiller et sortir de ce Dreamland.
 
 Étudiants en Master MIAGE – Université de Haute-Alsace
 
-Yiadom Boakye David
-Dali Reda
-Tidjani Rafik 
+- Yiadom Boakye David
+- Dali Reda
+- Tidjani Rafik 
