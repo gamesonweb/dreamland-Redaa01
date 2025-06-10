@@ -1,0 +1,74 @@
+CLOUD SURF - Description Complète
+================================
+
+1. CONCEPT DU JEU
+----------------
+Cloud Surf est un jeu de type "runner" infini avec une ambiance onirique. Le joueur incarne un surfeur céleste qui glisse sur une autoroute de nuages, collectant des éclats de rêve scintillants tout en évitant les obstacles.
+
+2. MÉCANIQUES PRINCIPALES
+------------------------
+- Navigation : Le surfeur se déplace horizontalement sur une piste de nuages
+- Collecte : Les éclats de rêve sont à collecter pour gagner des points
+- Obstacles : Des nuages d'orage à éviter pour ne pas perdre de rêve
+- Power-ups : Des bonus spéciaux pour améliorer les performances
+
+3. SYSTÈME DE SCORE
+------------------
+- Points de base : 10 points par éclat de rêve collecté
+- Système de combo : Le multiplicateur augmente avec les collectes consécutives
+- Décroissance : Le combo diminue si aucun éclat n'est collecté pendant un certain temps
+- High Score : Sauvegarde du meilleur score réalisé
+
+4. POWER-UPS DISPONIBLES
+-----------------------
+- Bouclier : Protection temporaire contre les obstacles
+- Vitesse ++ : Augmente la vitesse et les points pendant une durée limitée
+- Aimant : Attire les éclats de rêve vers le joueur
+
+5. OBSTACLE
+-----------
+- Nuages d'orage : Réduisent le niveau de rêve du joueur
+
+6. INTERFACE UTILISATEUR
+-----------------------
+- Barre de rêve : Indique le niveau de rêve restant
+- Score : Affichage du score actuel et du meilleur score
+- Combo : Indicateur visuel du multiplicateur actuel
+- Power-ups : Affichage des bonus actifs
+- Game Over : Écran de fin avec option de redémarrage
+
+7. CONTROLES
+-----------
+- Déplacement : Flèches Gauche/Droite ou touches A/Q/D
+- Démarrage/Redémarrage : Touche Entrée
+
+8. ASPECTS VISUELS
+-----------------
+- Environnement : Nuages et ciel
+- Effets visuels : Particules lumineuses pour les éclats
+- Animations : Transitions et effets de flash
+
+9. DIFFICULTÉ
+------------
+- Progression : La difficulté augmente avec le score
+- Vitesse : Accélération progressive du jeu
+- Obstacles : Apparition plus fréquente avec le temps
+- Spawn : Génération dynamique des éléments
+
+10. FONCTIONNALITÉS TECHNIQUES
+-----------------------------
+- Moteur 3D : Babylon.js pour le rendu
+- Interface : React pour l'UI
+
+11. ÉQUIPE DE DÉVELOPPEMENT
+--------------------------
+- David YIADOM BOAKYE
+- Reda DALI
+- Rafik TIDJANI
+
+12. OBJECTIFS DU JEU
+-------------------
+- Atteindre le score le plus élevé possible
+- Maintenir le niveau de rêve au maximum
+- Gérer efficacement les power-ups
+- Éviter les obstacles tout en collectant les éclats

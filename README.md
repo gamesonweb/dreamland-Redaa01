@@ -1,44 +1,66 @@
-# 🌌 Cycle Zéro
+# Cloud Surf 🌥️
 
-### 🎮 Projet réalisé pour le concours Games on Web 2025
-**Thème : DreamLand**
+Un jeu de surf dans les nuages où vous devez collecter des éclats de rêve tout en évitant les obstacles.
 
----
+## 🎮 Contexte narratif
 
-## 🧠 Concept du jeu
+Dans un monde où les rêves prennent forme dans les nuages, vous êtes un surfeur céleste qui glisse sur les nuages pour collecter des éclats de rêve. Votre mission est de maintenir votre niveau de rêve tout en accumulant le plus de points possible.
 
-> *Et si vous rêviez... sans pouvoir vous réveiller ?*
+## Liens
 
-**Cycle Zéro** est un jeu narratif en 3D à la première personne, développé en BabylonJS.  
-Le joueur incarne un astronaute qui se réveille, seul, sur une station posée sur une planète inconnue.  
-Chaque tentative d’évasion échoue, et il se réveille à nouveau, dans une boucle de rêve perturbée.
+Lien de la vidéo démo : https://drive.google.com/file/d/1HYv5LmhUxU04uPV61c8aL_naMrDAFViX/view?usp=sharing
 
-À travers cinq cycles de plus en plus étranges, il devra rassembler des indices, comprendre ce qui s’est passé…  
-et choisir s’il souhaite vraiment se réveiller et sortir de ce Dreamland.
+Lien du jeu en ligne : https://cloudsurf.vercel.app/
 
----
+## 🚀 Installation
 
-## Objectifs
+1. Clonez le repository :
+```bash
+git clone https://github.com/gamesonweb/dreamland-Redaa01.git
+cd dreamland-Redaa01
+```
 
-- Explorer un monde en mutation à chaque "réveil"
-- Observer les éléments qui changent ou deviennent incohérents
-- Écouter des journaux, interagir avec des objets, reconstruire les événements
-- Briser le cycle... ou y rester
+2. Installez les dépendances :
+```bash
+npm install
+```
 
----
+3. Lancez le serveur de développement :
+```bash
+npm run dev
+```
 
-## Technologies utilisées
+4. Ouvrez votre navigateur à l'adresse : `http://localhost:5173`
 
-- [BabylonJS](https://www.babylonjs.com/) – Moteur 3D WebGL
-- [Vite](https://vitejs.dev/) – Environnement de build rapide
-- TypeScript – Langage de développement principal
+## 🎯 Contrôles
 
----
+- **Flèche Gauche/Droite ou A/Q/D** : Déplacer le surfeur
+- **Entrer** : Lancer ou relancer le jeu
 
-## Équipe
+## 🎲 Mécaniques de jeu
 
-Étudiants en Master MIAGE – Université de Haute-Alsace
+### Système de score
+- Collectez des éclats de rêve pour gagner des points
+- Les combos augmentent votre multiplicateur de score
+- Le multiplicateur diminue si vous ne collectez pas d'éclats pendant un certain temps
 
-- Yiadom Boakye David
-- Dali Reda
-- Tidjani Rafik 
+### Power-ups
+- **Bouclier** : Protection temporaire contre les obstacles
+- **Vitesse ++** : Augmente les points et votre vitesse pendant une durée limitée
+- **Aimant** : Attire les éclats de rêve vers vous
+
+### Obstacle
+- **Nuages d'orage** : Réduisent votre niveau de rêve
+
+## 🛠️ Technologies ytilisées
+
+- Babylon.js pour le moteur 3D
+- React pour l'interface utilisateur
+- Vite pour le bundling et le développement
+
+## 🤝 Équipe
+
+Les développeurs sont
+1. David YIADOM BOAKYE
+2. Reda DALI
+3. Rafik TIDJANI

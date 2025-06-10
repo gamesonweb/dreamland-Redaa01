@@ -1,17 +1,21 @@
 {
-  "name": "cycle-zero",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "nuage-surf",
+  "version": "1.0.0",
+  "description": "Un runner infini sur les nuages",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^6.3.5"
-  },
   "dependencies": {
-    "babylonjs": "^8.7.0"
+    "@babylonjs/core": "^6.47.0",
+    "@babylonjs/gui": "^6.47.0",
+    "@babylonjs/loaders": "^6.47.0",
+    "@babylonjs/materials": "^6.47.0",
+    "@tweenjs/tween.js": "^21.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
-}
+} 
